@@ -41,3 +41,5 @@ async function checkNews() {
 
 setInterval(checkNews, NEWS_CHECK_INTERVAL);
 checkNews();
+sendTelegramMessage("✅ Test message from USD News Bot!");
+
